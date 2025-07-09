@@ -10,3 +10,5 @@ root.render(
     <App />
   </StrictMode>
 );
+
+// this is the bridge between the web browser and the react app

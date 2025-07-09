@@ -1,7 +1,25 @@
-export default function Square() {
-  return <button className="square">X</button>;
+function Square() {
+    return <button className="square">1</button>;
 }
 
-export default function Circle() {
-    return <button className="circle">O</button>;
+export default function Board() {
+    return (
+        <>
+            <div className="board-row">
+                <Square />
+                <Square />
+                <Square />
+            </div>
+            <div className="board-row">
+                <Square />
+                <Square />
+                <Square />
+            </div>
+            <div className="board-row">
+                <Square />
+                <Square />
+                <Square />
+            </div>
+        </>
+    );
 }
